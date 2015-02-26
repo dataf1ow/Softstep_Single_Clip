@@ -1,4 +1,4 @@
-# Softstep_SingleClip
+# Softstep_Single_Clip
 This is an Ableton Live Control Script and a Softstep preset that allows you to navigate a Live session with a single clip in focus. Useful for recordnig Audio/MIDI loops into the session view. 
 Simply drop the script into your MIDI Remote scripts folder, import the preset, and you're good to go. 
 
