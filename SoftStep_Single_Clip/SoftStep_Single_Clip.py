@@ -74,7 +74,7 @@ class SoftStep_Single_Clip(ControlSurface):
     #A mixer is one-dimensional; here we define the width in tracks
     num_tracks = 1
     #set up the mixer
-    self.mixer = MixerComponent(num_tracks, 2, with_eqs=True, with_filters=True)  #(num_tracks, num_returns, with_eqs, with_filters)
+    self.mixer = MixerComponent(num_tracks, 2)  #(num_tracks, num_returns)
     self.mixer.set_track_offset(0)  #sets start point for mixer strip (offset from left)
     #set the selected strip to the first track, so that we don't assign a button to arm the master track, which would cause an assertion error
     self.song().view.selected_track = self.mixer.channel_strip(0)._track
